@@ -9,15 +9,41 @@ import config from "@/config"
 const faqList = [
   {
     question: `Vad är ${config.appName} och vad kan jag hitta här?`,
-    answer: <p className="space-y-2 leading-relaxed"></p>,
+    answer: (
+      <p className="space-y-2 leading-relaxed">
+        Hundrastgårdar är en samlad katalog dedikerad till hundrastgårdar runt
+        om i Sverige. Här hittar du information om inhägnade områden där din
+        hund kan springa löst och leka fritt i en trygg miljö. Du kan söka efter
+        rastgårdar nära dig, läsa om deras faciliteter och ta del av andra
+        hundägares erfarenheter.
+      </p>
+    ),
   },
   {
     question: "Vem är den här katalogen till för?",
-    answer: <p className="space-y-2 leading-relaxed"></p>,
+    answer: (
+      <p className="space-y-2 leading-relaxed">
+        Katalogen är skapad för Sveriges hundägare som vill ge sina fyrbenta
+        vänner en säker och rolig plats att röra sig fritt på. Oavsett om du är
+        nybörjare som hundägare eller en erfaren hundmänniska som flyttat till
+        en ny stad, är Hundrastgårdar din guide till de bästa lokala
+        alternativen. Katalogen passar lika bra för den som söker en
+        vardagsrastgård som för den som planerar ett hundsäkert utflyktsmål.
+      </p>
+    ),
   },
   {
     question: `Varför ska jag använda ${config.appName} istället för en vanlig sökmotor?`,
-    answer: <p className="space-y-2 leading-relaxed"></p>,
+    answer: (
+      <p className="space-y-2 leading-relaxed">
+        Till skillnad från en vanlig sökmotor är Hundrastgårdar specialanpassad
+        just för detta ändamål, vilket innebär att all information är noggrant
+        kurerad och relevant för hundägare. Du slipper sålla igenom orelaterade
+        sökresultat och hittar snabbare det du letar efter. Katalogen samlar
+        dessutom uppdaterad och pålitlig information på ett och samma ställe,
+        vilket sparar både tid och frustration.
+      </p>
+    ),
   },
 ]
 
